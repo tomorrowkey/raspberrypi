@@ -1,0 +1,5 @@
+---
+- name: Install node
+  become: true
+  apt:
+    name: node
