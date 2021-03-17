@@ -21,7 +21,5 @@ curl -sL https://github.com/tomorrowkey/raspberrypi/archive/master.tar.gz -o ras
 tar -zxf raspberrypi-master.tar.gz &&
 cd raspberrypi-master &&
 ansible-playbook site.yml
-cd -
-rm -rf ./raspberrypi-master*
 "
 ```
