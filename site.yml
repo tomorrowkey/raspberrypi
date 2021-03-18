@@ -2,5 +2,8 @@
   gather_facts: false
   roles:
     - system
-    - node
     - sshd
+    - node
+    - ruby
+  vars:
+    RBENV_ROOT: /usr/local/rbenv
